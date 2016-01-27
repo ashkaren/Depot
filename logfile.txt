@@ -1,0 +1,53 @@
+[33mcommit 94ed780ffc752801c1253f9b6b4a83469b8bf912[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 20:26:01 2016 -0500
+
+    final stuff
+
+[33mcommit ce1b2d95f7cdead87f5552efb2e6fd01fb7c5443[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 17:26:23 2016 -0500
+
+    aws directory
+
+[33mcommit 11125b48e18796ae085a792cd523c057817ee3d9[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 16:46:21 2016 -0500
+
+    amazon stuff
+
+[33mcommit 78201809e9b7125be91d1b8b6fe79259d2b9d0f4[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 15:41:47 2016 -0500
+
+    Picture Uploader
+
+[33mcommit 620344d74391d0583fbf26181cf0c2c30209916b[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Mon Jan 25 18:23:26 2016 -0500
+
+    8_C2_C3_C5 Done
+
+[33mcommit 5b23564f81b135937f9f0ec642beb00a33b60b14[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 20:52:03 2016 -0500
+
+    Creating catalog
+
+[33mcommit b133d1bacb9aec3e7893a19a4dc13078406202d0[m
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 20:10:44 2016 -0500
+
+    Done with B
+
+[33mcommit bdf17f5ba2f51f4afcce63453d77edc37dc4a5f6[m
+Author: Gennady <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 16:51:51 2016 -0500
+
+    A1-A2 done
+
+[33mcommit 2629ceb23bb2df05c5f74b44b34d721e8d8ef329[m
+Author: Gennady <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 15:36:13 2016 -0500
+
+    Start
