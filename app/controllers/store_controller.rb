@@ -6,6 +6,6 @@ class StoreController < ApplicationController
   def index
   	@count = increment_count
   	@products = Product.order(:title)
-  	@shown_message = "You've visited this page #{@count} times without purchasing anything...Come on!" if @count >5
+  	flash[:notice] = "You've visited this page #{@count} times without purchasing anything...Come on!" if @count >5
   end
 end
