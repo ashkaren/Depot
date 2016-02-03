@@ -5,7 +5,7 @@ class StoreController < ApplicationController
   end
   def index
   	@count = increment_count
-  	@products = Product.order(:title)
+  	@products = Product.order(popularity: :desc, title: :asc)
   	flash[:notice] = "You've visited this page #{@count} times without purchasing anything...Come on!" if @count >5
   end
 end
