@@ -1,0 +1,173 @@
+commit a19e5618100873c0f9df42ad69d62afbff1c6805
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 16 14:58:46 2016 -0500
+
+    cart popajax
+
+commit aed9c62b23621a8714605259fe68126a1b0419dd
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 16 00:15:29 2016 -0500
+
+    playtime and pop ajax
+
+commit 3bc0cedc2c939537c641732b09c56bd109eadd60
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sat Feb 13 20:46:56 2016 -0500
+
+    F5
+
+commit c13c23a65549b703319ca2e92745245fb9d02f2a
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sat Feb 13 20:33:49 2016 -0500
+
+    F4
+
+commit fa36096b8c2b3acd513ee7a1bbd872fe31f3dc00
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sat Feb 13 20:04:46 2016 -0500
+
+    F3
+
+commit 20bf577ebf1e591af6ef059e7d39b4d9391e32d4
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sat Feb 13 19:47:02 2016 -0500
+
+    F2
+
+commit 9e8211e6dd55966044d086017a97eb45d6896a35
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sat Feb 13 19:29:19 2016 -0500
+
+    F1
+
+commit 526e7836db6db7065101d10b70fa813deb497321
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sat Feb 13 16:11:03 2016 -0500
+
+    Played with E
+
+commit a18cbd9c28a8272098c1f4dd8881e1eb4da28269
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Feb 7 20:09:02 2016 -0500
+
+    E3
+
+commit 6d1e7a5baea1b6008f3a156846e20bc262fcfd1d
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Feb 7 19:35:52 2016 -0500
+
+    E1E2
+
+commit 5630546848b6bed407210d66e6400f8e7f3ab83d
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Wed Feb 3 15:53:26 2016 -0500
+
+    popularity stuff
+
+commit 5dce45c014ba31eff77ef9bfe67c241c1fee88f4
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Wed Feb 3 15:16:04 2016 -0500
+
+    Linking part and message
+
+commit 4f8170f4a5686f4c70f024f176f13107b5f1667f
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 2 16:52:03 2016 -0500
+
+    playtime
+
+commit 0e1282dcdd33a4e98d066c7206c001ac379efd0a
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 2 14:36:02 2016 -0500
+
+    D3
+
+commit d7a9dc2b810456fc64588cf6d76a3bdad2487675
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 2 12:11:24 2016 -0500
+
+    D1-D2
+
+commit 86a44a94b745d49931550dcf109effb20cdac276
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Wed Jan 27 15:42:40 2016 -0500
+
+    uploader bug fixed
+
+commit ecc46e67f3e386011f7fdfd92e1aadd6d543ab43
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Wed Jan 27 14:41:48 2016 -0500
+
+    last changes
+
+commit 65a42b107034bb6013e45cfc5799b19508d0b7a6
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 21:17:10 2016 -0500
+
+    smth
+
+commit e52e66f0faacc7045e157ba8356719186a63d834
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 21:06:30 2016 -0500
+
+    forgot gemfile
+
+commit 5f2afd662e44a6c84a030659c45c48766b170da2
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 20:47:48 2016 -0500
+
+    idk what
+
+commit 94ed780ffc752801c1253f9b6b4a83469b8bf912
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 20:26:01 2016 -0500
+
+    final stuff
+
+commit ce1b2d95f7cdead87f5552efb2e6fd01fb7c5443
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 17:26:23 2016 -0500
+
+    aws directory
+
+commit 11125b48e18796ae085a792cd523c057817ee3d9
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 16:46:21 2016 -0500
+
+    amazon stuff
+
+commit 78201809e9b7125be91d1b8b6fe79259d2b9d0f4
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Jan 26 15:41:47 2016 -0500
+
+    Picture Uploader
+
+commit 620344d74391d0583fbf26181cf0c2c30209916b
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Mon Jan 25 18:23:26 2016 -0500
+
+    8_C2_C3_C5 Done
+
+commit 5b23564f81b135937f9f0ec642beb00a33b60b14
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 20:52:03 2016 -0500
+
+    Creating catalog
+
+commit b133d1bacb9aec3e7893a19a4dc13078406202d0
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 20:10:44 2016 -0500
+
+    Done with B
+
+commit bdf17f5ba2f51f4afcce63453d77edc37dc4a5f6
+Author: Gennady <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 16:51:51 2016 -0500
+
+    A1-A2 done
+
+commit 2629ceb23bb2df05c5f74b44b34d721e8d8ef329
+Author: Gennady <gvevtodiev@gmail.com>
+Date:   Sun Jan 24 15:36:13 2016 -0500
+
+    Start

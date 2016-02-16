@@ -29,7 +29,7 @@ class LineItemsController < ApplicationController
     product = Product.find(params[:product_id])
     product.popularity = product.popularity + 1
     product.update_attributes(:popularity => product.popularity)
-    @line_item = @cart.add_product(product.id, product.price)
+    @line_item = @cart.add_product(product.id)
 
     respond_to do |format|
       if @line_item.save
