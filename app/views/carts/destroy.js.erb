@@ -1,2 +1,6 @@
+<% @products.each do |decart|%>
+$(".supaman_<%= decart.id%>").html("<%= (Product.find(decart).popularity).round%>");
+<%end%>
+
 $('#cart tr').not('.total_line').remove();
 $('#cart').hide('blind', 1000);
