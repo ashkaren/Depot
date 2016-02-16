@@ -4,3 +4,5 @@ $('#cart').html("<%= escape_javascript render(@cart) %>");
 
 $('#current_item').css({'background-color':'#88ff88'}).
 	animate({'background-color':'#114411'}, 1000);
+
+$(".supaman_<%=@line_item.product.id%>").html("<%= escape_javascript render partial:"/store/popajax", locals: {pducts: @line_item.product.id}%>")

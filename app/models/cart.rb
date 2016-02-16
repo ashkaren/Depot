@@ -12,4 +12,17 @@ end
 def total_price
 	line_items.to_a.sum { |item| item.total_price }
 end
+  def decrement_line_item_quantity(line_item_id)
+    current_item = line_items.find(line_item_id)
+    product = Product.find(current_item.product_id)
+    product.popularity = product.popularity - 1
+    product.update_attributes(:popularity => product.popularity)
+    if current_item.quantity > 1
+      current_item.quantity -= 1
+    else
+      current_item.destroy
+    end
+
+    current_item
+  end
 end
