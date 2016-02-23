@@ -1,18 +1,20 @@
+<% if notice %>
 <p id="notice"><%= notice %></p>
-
+<% end %>
 <p>
   <strong>Title:</strong>
-  <%= @product.title %>
+  <%= sanitize(@product.title) %>
 </p>
 
 <p>
   <strong>Description:</strong>
-  <%= @product.description %>
+  <%= sanitize(@product.description) %>
 </p>
 
 <p>
   <strong>Image url:</strong>
-  <%= image_tag(@product.image_url, :width => 600) if @product.image_url.present? %>
+  <br>
+  <%= image_tag(@product.image_url, :width => 100) if @product.image_url.present? %>
 </p>
 
 <p>

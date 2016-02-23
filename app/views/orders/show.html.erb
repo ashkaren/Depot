@@ -1,3 +1,5 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
@@ -21,27 +23,32 @@
   <%= @order.pay_type %>
 </p>
 
-<table border="1" >
-
-  <tr>
-    <th>Title</th>
-    <th>Cover Page</th>
-    <th>Unit Price</th>
-    <th># of Copies</th>
-    <th>Total Price</th>
-  </tr>
-
-<% @order.line_items.each do |line_item| %>
-  <tr>
-    <td><%= line_item.product.title %></td>
-    <td><%= image_tag(line_item.product.image_url) %></td>
-    <td><%= number_to_currency line_item.product.price %></td>
-    <td><%= line_item.quantity %></td>
-    <td><%= number_to_currency line_item.total_price %></td>
-  </tr>
-<% end %>
-
+<table class="table table-bordered">
+	<thead>
+		  <tr>
+		    <th>Title</th>
+		    <th>Cover Page</th>
+		    <th>Unit Price</th>
+		    <th># of Copies</th>
+		    <th>Total Price</th>
+		  </tr>
+  	</thead>
+  	<tbody>
+		<% @order.line_items.each do |line_item| %>
+		  <tr>
+		    <td><%= line_item.product.title %></td>
+		    <td><%= image_tag(line_item.product.image_url, :width => 80) %></td>
+		    <td><%= number_to_currency line_item.product.price %></td>
+		    <td><%= line_item.quantity %></td>
+		    <td><%= number_to_currency line_item.total_price %></td>
+		  </tr>
+		<% end %>
+	</tbody>
 </table>
-
+<p>
+<strong>Total Price:
+<td class="total_cell"><%= number_to_currency(@order.total_price) %></td>
+</strong>
+</p>
 <%= link_to 'Edit', edit_order_path(@order) %> |
 <%= link_to 'Back', orders_path %>

@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  include CurrentCart
+  before_action :set_cart, only: [:new, :create]
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   # GET /products
@@ -7,7 +9,6 @@ class ProductsController < ApplicationController
 
   def index
     @products = Product.all
-    
   end
 
   # GET /products/1
