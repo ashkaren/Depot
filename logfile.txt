@@ -1,3 +1,39 @@
+commit 645e036be8d50d0a1ec0e929a7f2f3e42470fe93
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 23 14:55:15 2016 -0500
+
+    bootstrap and co
+
+commit e00a0ce180a02706762325ce41c8329623507d1b
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Mon Feb 22 17:15:32 2016 -0500
+
+    H additional
+
+commit b4b86b4d60d21b9212ca0016c5974f7db0ae9d72
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Mon Feb 22 16:32:39 2016 -0500
+
+    H
+
+commit 4a545cc1bd6fe90c218352e05903d8dcb2289854
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Mon Feb 22 15:05:44 2016 -0500
+
+    G2
+
+commit 4db5b3d87cee12c280e61eb8b2a20236ef7c060c
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Sun Feb 21 18:03:07 2016 -0500
+
+    G1
+
+commit 2c5480944d85fc8b0f7f41acc41a2ff4aafd2cc7
+Author: ashkaren <gvevtodiev@gmail.com>
+Date:   Tue Feb 16 17:27:43 2016 -0500
+
+    db miration
+
 commit a19e5618100873c0f9df42ad69d62afbff1c6805
 Author: ashkaren <gvevtodiev@gmail.com>
 Date:   Tue Feb 16 14:58:46 2016 -0500
