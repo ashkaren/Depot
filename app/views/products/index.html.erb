@@ -1,6 +1,7 @@
 <h1>Listing products</h1>
 <table>
 <% @products.each do |product| %>
+<% if product.user_id == session[:user_id] %>
   <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
     <td>
       <%= image_tag(product.image_url, class: 'list_image') %>
@@ -17,6 +18,7 @@
       <%= link_to 'Destroy', product, method: :delete,data: { confirm: 'Are you sure?' } %>
     </td>
   </tr>
+  <% end %>
 <% end %>
 </table>
 <br />

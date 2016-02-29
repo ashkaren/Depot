@@ -1,6 +1,7 @@
 class Product < ActiveRecord::Base
 	has_many :line_items
   has_many :orders, through: :line_items
+  belongs_to :user
   before_destroy :ensure_not_referenced_by_any_line_item
 	mount_uploader :image_url, PictureUploader
 validates :title, :description, :image_url, presence: true
@@ -26,3 +27,4 @@ private
       end
     end
 end
+# rails generate migration AddUserRefToProducts user:references
