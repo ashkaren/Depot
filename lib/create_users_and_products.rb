@@ -26,7 +26,7 @@ Product.create!(title: 'The iceberg',
 User.create( :name => 'mary', 
              :password =>'mary', 
              :password_confirmation => 'mary',
-             :address => '77 Verkhniy Chov, Syktyvkar, Russia, Republic of Komi')
+             :address => 'Dublin, Ireland')
 
 mary_id = (User.find_by(name: 'mary')).id
 Product.create!(title: 'The Hobbit',
