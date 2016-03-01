@@ -1,7 +1,8 @@
 User.transaction do
 User.create( :name => 'dave', 
              :password =>'dave', 
-             :password_confirmation => 'dave')
+             :password_confirmation => 'dave',
+             :address => '828 Broadway, New York, NY 10003')
 
 dave_id = (User.find_by(name: 'dave')).id
 Product.create!(title: 'The last wild',
@@ -24,7 +25,8 @@ Product.create!(title: 'The iceberg',
 
 User.create( :name => 'mary', 
              :password =>'mary', 
-             :password_confirmation => 'mary')
+             :password_confirmation => 'mary',
+             :address => '77 Verkhniy Chov, Syktyvkar, Russia, Republic of Komi')
 
 mary_id = (User.find_by(name: 'mary')).id
 Product.create!(title: 'The Hobbit',

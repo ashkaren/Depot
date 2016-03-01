@@ -1,4 +1,6 @@
 class Order < ActiveRecord::Base
+	geocoded_by :address
+  	after_validation :geocode
 	has_many :products, through: :line_items
 	has_many :line_items, dependent: :destroy
 	PAYMENT_TYPES = [ "Check", "Credit card", "Purchase order" ]

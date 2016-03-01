@@ -1,7 +1,8 @@
 User.transaction do
 User.create( :name => 'admin', 
              :password =>'admin', 
-             :password_confirmation => 'admin')
+             :password_confirmation => 'admin',
+             :address => '115 E Cranford ave., Valdosta, GA')
 
 user_id = (User.find_by(name: 'admin')).id
 Product.delete_all
